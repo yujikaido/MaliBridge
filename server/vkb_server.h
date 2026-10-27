@@ -252,6 +252,7 @@ enum {
     VKB_ERRATUM_FP16_HIDE,       /* MK-20 16-bit float arithmetic wrong (Mali-G715 r54) */
     VKB_ERRATUM_STENCIL_LAYOUT,  /* MK-11 a separate stencil layout in a render pass ignored */
     VKB_ERRATUM_VB_BAKE,         /* MK-05 option B: dynamic strides wrong in single-binding calls too */
+    VKB_ERRATUM_NAN_POSITION,    /* MK-45 a NaN clip-space position rasterized over the whole target (Mali-G77 r32p1) */
     VKB_ERRATUM_EXAMPLE,         /* a no-op, the pattern of a fix */
     VKB_ERRATA_COUNT
 };
